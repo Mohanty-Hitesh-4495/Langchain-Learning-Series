@@ -20,8 +20,8 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 # Streamlit framework
-st.title('Langchian Demo with Open-AI API')
-input_text = st.text_input("Search the topic that you want")
+st.title('🤖 Langchian Demo with Open-AI')
+input_text = st.text_input("Ask me anything 💬")
 
 # OpenAI LLM
 llm = ChatOpenAI(model = "gpt-4o-mini")
@@ -30,3 +30,20 @@ chain = prompt|llm|output_parser
 
 if input_text:
     st.markdown(chain.invoke({'question':input_text}))
+
+# About Section
+with st.expander("ℹ️ About this Chatbot 🤖"):
+    st.markdown("""
+        This chatbot is built using **LangChain** and **OpenAI API**.
+        
+        - **LangChain:** A framework for building LLM-powered applications.
+        - **OpenAI API:** Used to generate intelligent responses.
+        - **Streamlit:** Provides a simple and interactive UI.
+        
+        🛠 **Implementation:**
+        1. Uses **ChatPromptTemplate** to format user queries.
+        2. Uses **OpenAI's GPT-4o-mini** model for responses.
+        3. Displays responses in a clean and interactive UI.
+        
+        💡 **Use cases:** General Q&A, research assistance, and interactive AI conversations.
+    """)
