@@ -6,3 +6,4 @@ python-dotenv
 langserve
 fastapi
 uvicorn
+anthropic
