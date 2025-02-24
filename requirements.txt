@@ -7,3 +7,7 @@ langserve
 fastapi
 uvicorn
 anthropic
+bs4
+pypdf
+chromadb
+sentence-transformers
