@@ -24,8 +24,8 @@ server = FastAPI(
 model1 = ChatOpenAI(model="gpt-4o-mini")
 model2 = ChatAnthropic(model_name="claude-3.5-sonnet-20241022")
 
-prompt1=ChatPromptTemplate.from_template("Write me an essay about {topic} with 100 words")
-prompt2=ChatPromptTemplate.from_template("Write me an poem about {topic} for a 5 years child with 100 words")
+prompt1 = ChatPromptTemplate.from_template("Write me an essay about {topic} with 100 words")
+prompt2 = ChatPromptTemplate.from_template("Write me an poem about {topic} for a 5 years child with 100 words")
 
 add_routes(
     server,
