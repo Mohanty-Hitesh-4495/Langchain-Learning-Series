@@ -1,4 +1,5 @@
 langchain-openai
+langchain_groq
 langchain_core
 langchain_community
 streamlit
@@ -11,3 +12,4 @@ bs4
 pypdf
 chromadb
 sentence-transformers
+langchain_tavily
