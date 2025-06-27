@@ -24,6 +24,16 @@ Here’s a breakdown of its key components:
 
 **6. Memory**: Memory allows the LLM to remember past interactions, making it possible to maintain continuity across conversations, much like how ChatGPT works.
 
-**7. Callbacks**: Similar to callbacks in machine learning libraries like TensorFlow, LangChain’s callbacks log the steps during execution, aiding in debugging and performance monitoring.
+**7. Schema**:
+These define data structures that flow between all other LangChain components.
+- Text: Plain text inputs or outputs (for LLMs or chains).
+- ChatMessages: Role-based messages (SystemMessage, HumanMessage, etc.) for ChatModels.
+- Examples: Predefined input-output examples for few-shot prompting.
+- Document: Structured representation of external data (like PDF, HTML, etc.) used in RAG and retrieval.
 
-**8. Retriever**: This component enables Retrieval Augmented Generation (RAG), where external data like documents or reports can be integrated into the LLM’s responses. It’s useful for tasks like summarizing content or answering questions about documents.
+**8. Indexes (RAG / Search Related)**:
+For loading, splitting, embedding, and storing documents.
+- Document Loaders: Read data from external files like PDF, CSV, Websites, etc.
+- Text Splitters: Break large documents into smaller manageable chunks.
+- Retriever: Fetches relevant chunks from vector store using semantic similarity.
+- Vectorstore: Stores and retrieves dense vector embeddings (Chroma, Pinecone, etc.)
