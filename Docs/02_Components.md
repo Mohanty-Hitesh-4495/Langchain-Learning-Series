@@ -2,7 +2,7 @@
 
 LangChain is a framework designed to build advanced AI applications that integrate large language models (LLMs) with various functionalities. 
 
-![Components of Langchain](Images\langchain_components.jpg "Components of Langchain")
+![Components of Langchain](/Images/langchain_components.jpg  "Components of Langchain")
 
 Here’s a breakdown of its key components:
 
