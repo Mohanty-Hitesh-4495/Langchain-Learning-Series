@@ -1,5 +1,4 @@
 # Building simple LLM application using chat models and prompt templetes
-
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -17,8 +16,8 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 output_parser = StrOutputParser()
-
-chain = prompt| llm | output_parser
+# Build Chain (Prompt → Model → Output Parser)
+chain = prompt|llm|output_parser
 
 if __name__ == "__main__":
     result = chain.invoke({"question": "give a brief about LangChain and its applications"})
