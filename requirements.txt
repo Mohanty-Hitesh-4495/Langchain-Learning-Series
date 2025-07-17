@@ -13,3 +13,6 @@ pypdf
 chromadb
 sentence-transformers
 langchain_tavily
+langchain-huggingface
+ipywidgets 
+faiss-cpu
