@@ -19,14 +19,14 @@ LLMs are powerful, but raw prompts are limited. LangChain helps you:
  
 ### Key Features
 
-🔗 Chains Combine prompt → LLM → output in workflows
-💬 Chat Models Handle conversation using message-based prompts
-📚 RAG Retrieve context from external sources
-🤖 Agents Let LLMs use tools and make decisions
-💾 Memory Store chat history or session context
-📈 LangSmith Debug, test, and monitor your LangChain app
-🧠 Embeddings Convert text into vectors for search
-🗃️ Vector Stores Store and query embedded data (Chroma, FAISS, etc.)
+- Chains Combine prompt → LLM → output in workflows
+- Chat Models Handle conversation using message-based prompts
+- RAG Retrieve context from external sources
+- Agents Let LLMs use tools and make decisions
+- Memory Store chat history or session context
+- LangSmith Debug, test, and monitor your LangChain app
+- Embeddings Convert text into vectors for search
+- Vector Stores Store and query embedded data (Chroma, FAISS, etc.)
 
 ### Real-World Use Cases
 
@@ -38,7 +38,7 @@ LLMs are powerful, but raw prompts are limited. LangChain helps you:
 ----------
 ### What is LangGraph?
 
-**LangGraph** is a powerful extension of LangChain that helps you build **stateful, multi-step, branching workflows** using **LLMs as agents** — like a **graph of language model steps**.
+**LangGraph** is a powerful extension of LangChain that helps you build **stateful, multi-step, branching workflows** using **LLMs as agents** - like a **graph of language model steps**.
 
 It combines the flexibility of **state machines** with the intelligence of **LLMs**.
 
@@ -51,7 +51,7 @@ While LangChain's basic chains are **linear** (Step 1 → Step 2 → ...), real-
 -   **Multiple agents/tools**    
 -   **Dynamic execution paths**
     
-That’s where **LangGraph** shines — it allows you to build **custom graphs with logic**, powered by LLMs.
+That’s where **LangGraph** shines - it allows you to build **custom graphs with logic**, powered by LLMs.
 
 ### Core Concepts 
 
