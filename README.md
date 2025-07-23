@@ -8,8 +8,6 @@
   <img src="https://img.shields.io/badge/OpenAI-F0F8FF?style=for-the-badge&logo=openai&logoColor=black" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white" />
-
-  <h3>ResumeForge is an intelligent resume builder that helps you create professional resumes with AI-powered suggestions and beautiful templates. 🚀</h3>
 </div>
   
 This repository contains hands-on implementations, guided notebooks, and architecture experiments from my journey learning and applying [LangChain](https://www.langchain.com/) and [LangGraph](https://www.langchain.com/langgraph/) for building modern LLM-powered applications.
