@@ -1,8 +1,12 @@
 ﻿<div align="center">
   <h1> 🦜🔗 LangChain & LangGraph Learnings Repository </h1>
-  <img src="https://img.shields.io/badge/Groq-412991?style=for-the-badge&logo=groq&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/langgraph-008B8B?style=for-the-badge&logo=langgraph&logoColor=white" />
   <img src="https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black" />
+  <img src="https://img.shields.io/badge/Groq-412991?style=for-the-badge&logo=groq&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-F0F8FF?style=for-the-badge&logo=openai&logoColor=black" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white" />
 
   <h3>ResumeForge is an intelligent resume builder that helps you create professional resumes with AI-powered suggestions and beautiful templates. 🚀</h3>
@@ -42,8 +46,8 @@ This repository contains hands-on implementations, guided notebooks, and archite
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Mohanty-Hitesh-4495/Langchain-Learning-Series.git
-   cd LangChain-Learnings
-````
+   cd LangChain-Learnings-Series
+   ```
 
 2. **Install dependencies:**
 
