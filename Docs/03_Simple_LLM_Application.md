@@ -13,5 +13,5 @@ This tutorial demonstrates how to build a simple LLM-powered application using:
 - Building a simple LangChain chain (Prompt → LLM → Output Parser).
 - Executing a simple inference flow to answer user questions.
 
-⚙️ Workflow Overview
-<div align="center"> <img src=/Images/LLM_aaplication_workflow.png> </div>
+### ⚙️ Workflow Overview
+<div align="center"> <img src=/Images/LLM_application_workflow.png width="300" height="800"> </div>
