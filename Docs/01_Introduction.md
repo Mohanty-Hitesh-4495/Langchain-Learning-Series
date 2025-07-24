@@ -8,6 +8,8 @@ It makes it easy to integrate LLMs with:
 - Custom tools (search, APIs)
 - Chains of logic (multi-step reasoning)
 
+<div align = "center"> <img src=/Images/langchain_stack.svg> </div>
+
 ### Why LangChain?
 
 LLMs are powerful, but raw prompts are limited. LangChain helps you:
