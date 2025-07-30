@@ -83,7 +83,7 @@ This repository contains hands-on implementations, guided notebooks, and archite
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 * Python 3.8+
 * `LangChain`, `LangGraph`, `Streamlit`, `FastAPI`, `Uvicorn`, and other dependencies listed in `requirements.txt`
